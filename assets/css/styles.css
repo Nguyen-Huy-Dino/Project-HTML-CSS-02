@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* =================================== Common =================================== */
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% -48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 50px;
+    min-width: 118px;
+    border-radius: 24.5px;
+    background: #171100;
+    padding: 0px 16px;
+}
+
+/* =================================== Header =================================== */
+
+.header {
+    background: #fffcf4;
+}
+
+.fixed-header {
+    position: sticky;
+    top: -26px;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 36px 0px 10px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul li a {
+    color: #5f5b53;
+    font-size: 1.6rem;
+    padding: 8px 21px;
+    position: relative;
+}
+
+.nav ul li a:hover,
+.nav ul li.active a {
+    text-shadow: 1px 0px 0px currentColor;
+    color: #171100;
+}
+.nav ul li.active a::after {
+    background-color: #171100;
+    content: "";
+    display: block;
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    position: absolute;
+    left: 21px;
+    bottom: 6px;
+}
+
+.header .action .btn {
+    min-width: 144px;
+}
+
+.header .action{
+    margin-left: 49px;
+}
