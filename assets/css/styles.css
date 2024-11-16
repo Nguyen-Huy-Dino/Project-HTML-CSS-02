@@ -46,6 +46,10 @@ a {
     cursor: pointer;
 }
 
+.break-all {
+    word-break: break-all;
+}
+
 .heading {
     font-family: var(--font-heading);
     font-weight: 700;
@@ -63,6 +67,16 @@ a {
     line-height: 1.26;
 }
 
+.line-clamp {
+    display: --webkit-box;
+    --webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
 /* =================================== Header =================================== */
 
 .header {
@@ -348,7 +362,8 @@ a {
     align-items: center;
 }
 
-.popular .course-list .course-item .info .title a{
+.popular .course-list .course-item .info .title a {
+    padding-right: 6px;
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
@@ -388,5 +403,5 @@ a {
 
 .popular .course-list .course-item .info .book-btn:hover {
     background-color: var(--primary-color);
-    color:#fff;
+    color: #fff;
 }
