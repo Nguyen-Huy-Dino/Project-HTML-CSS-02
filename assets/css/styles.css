@@ -44,6 +44,23 @@ a {
 .btn:hover {
     opacity: 0.9;
 }
+
+.heading {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color:#171100;
+}
+
+.heading.lv1 {
+    font-size: 5.8rem;
+    line-height: 1.17;
+}
+
+.heading.lv2 {
+    font-size: 3.8rem;
+    line-height: 1.26;
+}
 /* =================================== Header =================================== */
 
 .header {
@@ -185,15 +202,6 @@ a {
     padding: 64px 0px 64px 130px;
 }
 
-.hero .body .content-block .heading {
-    color: #171100;
-    font-family: var(--font-heading);
-    font-size: 5.8rem;
-    font-weight: 700;
-    line-height: 1.17241;
-    letter-spacing: -0.02em;
-}
-
 .hero .body .content-block .desc {
     color: #5f5b53;
     font-size: 1.8rem;
@@ -253,4 +261,49 @@ a {
     font-weight: 700;
     line-height: 1.22727;
     padding:0px 8px 0px 28px;
+}
+
+/* =================================== Popular =================================== */
+
+.popular {
+    padding: 65px 0px;
+    margin-top: 135px;
+}
+
+.popular .popular-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular .popular-top .info .desc {
+    color: #5F5B53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66667;
+    width: 458px;
+    margin-top: 16px;
+}
+
+.popular .popular-top .controls {
+    display: flex;
+    gap: 18px;
+}
+
+.popular .popular-top .controls .control-btn {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular .popular-top .controls .control-btn:hover {
+    background-color: var(--primary-color);
+    color:#fff;
+    cursor: pointer;
 }
