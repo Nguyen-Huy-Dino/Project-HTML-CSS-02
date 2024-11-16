@@ -105,7 +105,7 @@ a {
 
 .hero {
     background-color: #fffcf4;
-    padding: 54px 0px;
+    padding: 54px 0px 65px 0px;
 }
 
 .hero .body {
@@ -122,6 +122,7 @@ a {
     height: 685px;
     object-fit: cover;
     border-radius: 20px;
+    vertical-align: bottom;
 }
 
 .hero .body .media-block .hero-summary {
@@ -132,11 +133,12 @@ a {
     border-radius: 12px;
     background: #fff;
     box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
-    padding: 28px 24px;
+    padding: 24px;
 }
 
 .hero .body .media-block .hero-summary .item {
     display: flex;
+    align-items: center;
 }
 
 .hero .body .media-block .hero-summary .item + .item {
