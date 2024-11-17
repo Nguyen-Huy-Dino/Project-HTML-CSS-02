@@ -405,3 +405,70 @@ a {
     background-color: var(--primary-color);
     color: #fff;
 }
+
+/* =================================== Popular =================================== */
+
+.feedback {
+    margin-top: 135px;
+    background-color: #2e2100;
+    padding: 96px 0px;
+}
+
+.feedback .feedback-list .feedback-item {
+    display: flex;
+}
+
+.feedback .feedback-list .feedback-item .info .avatar {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .feedback-list .feedback-item .info .title {
+    color: #f7f7f7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.41667;
+    margin-top: 18px;
+}
+
+.feedback .feedback-list .feedback-item .info .desc {
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85714;
+}
+
+.feedback .feedback-list .feedback-item .info .dots {
+    margin-top: 28px;
+    display: flex;
+}
+
+.feedback .feedback-list .feedback-item .info .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 6px;
+    background-color: #634700;
+    cursor: pointer;
+}
+
+.feedback .feedback-list .feedback-item .info .dot.active {
+    background-color: var(--primary-color);
+    cursor: default;
+}
+
+.feedback .feedback-list .feedback-item .content {
+    width: 66%;
+    margin-left: auto;
+}
+
+.feedback .feedback-list .feedback-item .content blockquote {
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.53846;
+    margin-left: 30px;
+}
