@@ -414,8 +414,15 @@ a {
     padding: 96px 0px;
 }
 
+.feedback .feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback .feedback-list .feedback-item {
     display: flex;
+    width: 100%;
+    flex-shrink: 0;
 }
 
 .feedback .feedback-list .feedback-item .info .avatar {
