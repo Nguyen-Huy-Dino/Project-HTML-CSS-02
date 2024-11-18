@@ -479,3 +479,54 @@ a {
     line-height: 1.53846;
     margin-left: 30px;
 }
+
+/* =================================== Features =================================== */
+
+.features {
+    padding: 65px 0px;
+    margin-top: 135px;
+}
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .body .images {
+    display: flex;
+    gap: 0 30px;
+}
+
+.features .body .images img {
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .body .images img.lower {
+    margin-top: 30px;
+}
+
+.features .body .content {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.features .body .content .desc {
+    color: #5f5b53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 16px;
+}
+
+.features .body .content .cta-btn {
+    min-width: 137px;
+    color: #fff;
+    background-color: var(--primary-color);
+    margin-top: 32px;
+}
